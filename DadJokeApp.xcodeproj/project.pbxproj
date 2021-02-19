@@ -11,6 +11,7 @@
 		D783FE2325E01B0C005114CD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D783FE2225E01B0C005114CD /* ContentView.swift */; };
 		D783FE2525E01B1B005114CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D783FE2425E01B1B005114CD /* Assets.xcassets */; };
 		D783FE2825E01B1B005114CD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D783FE2725E01B1B005114CD /* Preview Assets.xcassets */; };
+		D783FE3125E01BB0005114CD /* DadJoke.swift in Sources */ = {isa = PBXBuildFile; fileRef = D783FE3025E01BB0005114CD /* DadJoke.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		D783FE2425E01B1B005114CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D783FE2725E01B1B005114CD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D783FE2925E01B1B005114CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D783FE3025E01BB0005114CD /* DadJoke.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DadJoke.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +38,7 @@
 		D783FE1425E01B0C005114CD = {
 			isa = PBXGroup;
 			children = (
+				D783FE3025E01BB0005114CD /* DadJoke.swift */,
 				D783FE1F25E01B0C005114CD /* DadJokeApp */,
 				D783FE1E25E01B0C005114CD /* Products */,
 			);
@@ -140,6 +143,7 @@
 			files = (
 				D783FE2325E01B0C005114CD /* ContentView.swift in Sources */,
 				D783FE2125E01B0C005114CD /* DadJokeAppApp.swift in Sources */,
+				D783FE3125E01BB0005114CD /* DadJoke.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,10 +7,19 @@
 
 import SwiftUI
 
+
+
 struct ContentView: View {
+    
+    @State var someText = "Hello world"
+    
+    
     var body: some View {
-        Text("Hello, world!")
+        Text(someText)
             .padding()
+            .onAppear() {
+        someText = "Right back at you"
+            }
     }
 }
 
